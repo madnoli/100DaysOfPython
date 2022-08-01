@@ -1,0 +1,7 @@
+#calculate body mass and index 
+weight = float(input("Enter the weight in kg :"))
+height = float(input("Enter the height in meter : "))
+
+#body mass index is
+
+print("Body mass index is : " + str(int(weight/(height*height))))
