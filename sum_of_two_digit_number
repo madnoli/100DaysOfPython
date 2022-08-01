@@ -1,12 +1,18 @@
 
+#Enter 2 digit number
 number = input("Enter any two digit number :")
+#checking the lenght of number
 num_len = len(number)
+#if number of digits are not equal 2 , then exiting from program
 if num_len != 2:
     print("Number is not equal two digit")
     quit()
     
+#subscript of numbers
 frist_digit = number[0]
 second_digit = number[1]
 
+#adding the digits
 sum_digit = int(frist_digit) + int(second_digit)
+#Printing the sum
 print("Sum of 2 digit is "+ str(sum_digit))
